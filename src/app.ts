@@ -1,5 +1,6 @@
 import cors from 'cors';
 import express from 'express';
+import './database';
 import router from './routes/routes';
 
 class App {
