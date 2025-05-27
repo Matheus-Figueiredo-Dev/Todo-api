@@ -4,7 +4,7 @@
   "description": "Back-end do sistema de gerenciador de tarefas",
   "main": "server.ts",
   "scripts": {
-    "start": "nodemon --exec ts-node ./src/server.ts",
+    "start": "nodemon --watch src --exec ts-node ./src/server.ts",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "npx tsx watch src/server.ts"
   },
@@ -19,6 +19,7 @@
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
     "@types/cors": "^2.8.18",
-    "@types/express": "^5.0.2"
+    "@types/express": "^5.0.2",
+    "ts-node": "^10.9.2"
   }
 }
