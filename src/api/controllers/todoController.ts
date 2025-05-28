@@ -1,6 +1,5 @@
 import type { Request, Response } from 'express';
-import Todo from '../models/Todo';
-
+import Todo from '../models/todo';
 class TodoController {
   // biome-ignore lint/suspicious/noExplicitAny: <explanation>
   async getAllTodos(req: Request, res: Response): Promise<any> {
