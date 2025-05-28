@@ -42,7 +42,18 @@ Este projeto foi desenvolvido como parte do meu aprendizado em desenvolvimento b
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/seu-usuario/todo-api.git
+git clone git clone https://github.com/Matheus-Figueiredo-Dev/Todo-api
+cd todo-api
+
+2. Instale as dependências
+npm install
+
+3. Suba o MongoDB com Docker (opcional)
+docker-compose up -d
+Isso depende do seu docker-compose.yml. Se quiser, me avisa que te ajudo a escrever ele também.
+
+4. Rode o servidor
+npm run start
 cd todo-api
 
 2. Instale as dependências
