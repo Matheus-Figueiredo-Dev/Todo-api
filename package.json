@@ -4,8 +4,8 @@
   "description": "Back-end do sistema de gerenciador de tarefas",
   "main": "server.ts",
   "scripts": {
-    "start": "nodemon --watch src --exec ts-node ./src/server.ts",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node dist/server.js",
     "dev": "npx tsx watch src/server.ts"
   },
   "author": "Matheus Figueiredo",
